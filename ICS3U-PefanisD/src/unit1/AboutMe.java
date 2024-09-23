@@ -15,6 +15,9 @@ public class AboutMe {
 		System.out.println(" and I am in grade 11.");
 		System.out.println("My teacher is Ms. Kemp.");
 		System.out.println("I go to Lawrence Park.");
+		System.out.println("GO PANTHERS!!");
 		System.out.println("I used to go to Loretto Abbey, but transfered last year.");
+		System.out.println("--------------------------------------------------------");
+		System.out.format("Date: %-15sClasses: %8s", "Monday, Thursday", "Computer Science, Functions, English, Biology");
 	}
 }
