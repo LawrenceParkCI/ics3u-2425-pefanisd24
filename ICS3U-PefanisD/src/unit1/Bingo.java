@@ -1,9 +1,8 @@
 package unit1;
 
 /**
- * Asciiart.java
- * This program shows instructions for the game BINGO and an example for a bingo card.
- * September 27, 2024
+ * Description: This program shows instructions for the game BINGO and an example for a bingo card.
+ * Date: September 27, 2024
  * @author Daniella Pefanis
  */
 

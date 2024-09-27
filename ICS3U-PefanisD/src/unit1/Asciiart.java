@@ -2,8 +2,8 @@ package unit1;
 
 /**
  * Asciiart.java
- * This program prints out my name and an OVO logo.
- * September 27, 2024
+ * Description: This program prints out my name and an OVO logo.
+ * Date: September 27, 2024
  * @author Daniella Pefanis
  */
 
