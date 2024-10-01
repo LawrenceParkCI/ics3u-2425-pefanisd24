@@ -21,7 +21,8 @@ public class CreatingVariables {
 		System.out.println("25*25");
 		System.out.println("A=625");
 		// Key Question: what if the value I want to use needs to change?
-		// *
+		// You can change the number in the print ln
+		// *==
 		/*
 		 * Variables - A variable is a place in memory that you can tell your computer
 		 * to set aside when you make a program. - This location can be used to store a
