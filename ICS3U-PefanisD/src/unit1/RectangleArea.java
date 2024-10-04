@@ -1,4 +1,9 @@
 package unit1;
+/**
+ * Description: This code prints Area and Volume of a rectangle
+ * Date: October 3, 2024
+ * @author Daniella Pefanis
+ */
 
 import java.util.Scanner;
 

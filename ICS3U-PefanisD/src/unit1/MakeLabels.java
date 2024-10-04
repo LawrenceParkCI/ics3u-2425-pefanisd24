@@ -1,5 +1,9 @@
 package unit1;
-
+/**
+ * Description: This code prints out a subject and name
+ * Date: October 2, 2024
+ * @author Daniella Pefanis
+ */
 import java.util.Scanner;
 
 public class MakeLabels {
