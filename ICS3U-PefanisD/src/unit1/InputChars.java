@@ -1,7 +1,12 @@
 package unit1;
 
 import java.util.Scanner;
-
+/**
+ * Description: This code spells words in numbers
+ * Date: October 4, 2024
+ * @author Daniella Pefanis
+ */
+ 
 public class InputChars {
 
 	public static void main(String[] args) {
