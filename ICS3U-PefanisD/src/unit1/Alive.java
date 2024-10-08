@@ -1,5 +1,9 @@
 package unit1;
-
+/**
+ * Description: This code Calculates How many days I've been alive, and how many I've slept. 
+ * Date: October 8, 2024
+ * @author Daniella Pefanis
+ */
 import java.util.Scanner;
 
 public class Alive {
