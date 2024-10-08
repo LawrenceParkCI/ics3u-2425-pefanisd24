@@ -29,19 +29,13 @@ public class StringManipulation {
 				sc.close();
 				
 				//BONUS
-				  String firstSentence = "Output just the first word of the String";
-			        String lastSentence = "Output just the last word of the String";
-				 // Print the first word
-		        System.out.println(firstSentence.split(" ")[0]); // Output: Output
+				 // Output just the first word of the String
+		        String firstWord = sentence.split(" ")[0];
+		        System.out.println("The first word is: " + firstWord);
 		        
-		        // Print the last word
-		        System.out.println(firstSentence.split(" ")[firstSentence.split(" ").length - 1]); // Output: String
-		        
-		        // Print the first word of the last sentence
-		        System.out.println(lastSentence.split(" ")[0]); // Output: Output
-		        
-		        // Print the last word of the last sentence
-		        System.out.println(lastSentence.split(" ")[lastSentence.split(" ").length - 1]); // Output: String
+		        // Output just the last word of the String
+		        String lastWord = sentence.split(" ")[sentence.split(" ").length - 1];
+		        System.out.println("The last word is: " + lastWord);
 		    }
 
 
