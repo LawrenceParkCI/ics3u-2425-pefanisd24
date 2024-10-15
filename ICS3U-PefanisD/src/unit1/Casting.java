@@ -3,9 +3,9 @@ package unit1;
 import java.util.Scanner;
 
 /**
-* Description:
-* Date:
-* @author 
+* Description: This code prints the letter "A".
+* Date: October 15, 2024
+* @author Daniella Pefanis
 */
 public class Casting {
  
