@@ -3,9 +3,9 @@ package unit1;
 import java.util.Scanner;
 
 /**
- * Description:
- * Date:
- * @author 
+ * Description: This program calculates the square root of a number.
+ * Date: October 10, 2024
+ * @author Daniella Pefanis
  */
 public class UsingMathMethods {
 
