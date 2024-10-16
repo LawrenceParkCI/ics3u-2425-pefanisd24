@@ -38,22 +38,23 @@ public class Casting3 {
     System.out.println("Part 2");
     //In order to change a String into an integer, we need another set of code
 
-    String strNum = "25";
+    String strNum = "-5";
     int myNum = Integer.parseInt(strNum);
 
     System.out.println(strNum + " x 2 = " + (myNum + myNum));
 
     /*Change strNum to the following values, and see if they work:
-     * "25.2"
-     * "23c"
-     * "2 3"
-     * "Lol23"
-     * "-5"
+     * "25.2" no
+     * "23c" no
+     * "2 3" no
+     * "Lol23" no
+     * "-5" yes, -5 x 2 = -10
     */
     //What can you say about how we can use the function, Integer.parseInt()?
-
+//Letters and decimal places don't work.
 
     // What do you think the code to change a String to double would look like?
+    //
     //Similarly, test out the code and write down what instructions
   
 
