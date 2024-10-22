@@ -1,5 +1,11 @@
 package unit1;
 
+/**
+ * Description: This program makes a receipt for a grocery store, calculates the price, and adds the tax.
+ * Date: October 22,2024
+ * @author: Daniella Pefanis
+ */
+
 import java.util.Scanner;
 import java.time.format.DateTimeFormatter;
 import java.text.NumberFormat;
@@ -17,8 +23,24 @@ public class GroceryShopping {
 		String item1, item2;
 		double itemPrice1, itemPrice2;
 		int itemAmnt1, itemAmnt2;
+		//The code for what product the customer is buying, how many of them, and the cost.
+		System.out.println("    "
+				+ "                     .@  @*+++*@@#              \r\n"
+				+ "                       @@*******+*@.            \r\n"
+				+ "                 #@@@% @@@@@@@@@@*              \r\n"
+				+ "               :@####%@@@@%%#%%@-               \r\n"
+				+ "            .*###--#############%%*.            \r\n"
+				+ "            .@%+ +##############%%@.            \r\n"
+				+ "            .@%#################%%@.            \r\n"
+				+ "            .@%#################%%@.            \r\n"
+				+ "             .*%###############%@#.             \r\n"
+				+ "              *@##############%%@#              \r\n"
+				+ "               :@%##########%%%@:               \r\n"
+				+ "                 #@@%%%%%#%%@@#                 \r\n"
+				+ "                       ");
 		 System.out.println("|| $$$ \\\\\\ ========== \"Daniella's Grocery\" ========== /// $$$ ||");
 		 System.out.println("");
+		 //The first product.
 		 System.out.println("\nHello Customer!");
 			System.out.print("What would you like to buy? ");
 			item1 = sc.nextLine();
@@ -29,6 +51,7 @@ public class GroceryShopping {
 			sc.nextLine();
 			System.out.println("Perfect!");
 			System.out.println("");
+			//The second product.
 			System.out.print("What would you like to buy? ");
 			item2 = sc.nextLine();
 			System.out.print("How much does it cost? $");
@@ -40,8 +63,7 @@ public class GroceryShopping {
 			System.out.println("");
 			System.out.format("Here is your reciept:\n\n\n");
 			sc.close();
-		
-
+			//This is the printed receipt
 			System.out.format("%24s"+ "Daniella" + "'s Groceries\n\n", "");
 				
 				DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss"); 
