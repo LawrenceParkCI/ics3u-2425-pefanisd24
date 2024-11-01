@@ -1,6 +1,6 @@
 package unit1;
 /**
- * Description: This code finds the total cost to carpet a room 
+ *Description: This code finds the total cost to carpet a room 
  * Date: October 8, 2024
  * @author Daniella Pefanis
  */

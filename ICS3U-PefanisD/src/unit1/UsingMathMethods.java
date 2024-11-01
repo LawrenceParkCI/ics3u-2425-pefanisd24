@@ -1,12 +1,12 @@
 package unit1;
-
-import java.util.Scanner;
-
 /**
  * Description: This program calculates the square root of a number.
  * Date: October 10, 2024
  * @author Daniella Pefanis
  */
+
+import java.util.Scanner;
+
 public class UsingMathMethods {
 
  /**

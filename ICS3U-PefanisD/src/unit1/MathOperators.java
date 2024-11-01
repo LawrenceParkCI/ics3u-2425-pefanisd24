@@ -1,11 +1,10 @@
 package unit1;
-
 /**
  * Date: October 1, 2024
  * Description: This is me completing an assignment
- * 
  * @author Daniella Pefanis
  */
+
 public class MathOperators {
 	/**
 	 *

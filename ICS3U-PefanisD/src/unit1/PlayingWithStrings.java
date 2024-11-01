@@ -1,5 +1,7 @@
 package unit1;
-
+/**
+ * Description: This program says ow many hcracaers 
+ */
 public class PlayingWithStrings {
 
 	public static void main(String[] args) {

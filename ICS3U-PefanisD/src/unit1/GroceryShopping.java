@@ -1,5 +1,4 @@
 package unit1;
-
 /**
  * Description: This program makes a receipt for a grocery store, calculates the price, and adds the tax.
  * Date: October 22,2024

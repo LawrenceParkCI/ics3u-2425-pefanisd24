@@ -1,12 +1,11 @@
 package unit1;
-
-import java.util.Scanner;
-
 /**
 * Description: This code prints the letter "A".
 * Date: October 15, 2024
 * @author Daniella Pefanis
 */
+import java.util.Scanner;
+
 public class Casting {
  
  /**

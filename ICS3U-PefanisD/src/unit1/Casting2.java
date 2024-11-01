@@ -1,9 +1,8 @@
 package unit1;
-
 /**
-* Description:
-* Date:
-* @author 
+* Description: This program prints the letter A.
+* Date: October 4th, 2024
+* @author Daniella Pefanis
 */
 public class Casting2 {
   

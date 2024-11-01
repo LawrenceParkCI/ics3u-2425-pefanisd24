@@ -1,5 +1,4 @@
 package unit1;
-
 /**
  * Asciiart.java
  * Description: This program prints out my name and an OVO logo.

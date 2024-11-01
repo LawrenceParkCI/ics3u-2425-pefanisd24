@@ -1,5 +1,4 @@
 package unit1;
-
 /**
  * Description: This program shows instructions for the game BINGO and an example for a bingo card.
  * Date: September 27, 2024

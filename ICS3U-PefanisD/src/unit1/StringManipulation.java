@@ -4,6 +4,7 @@ package unit1;
  * Date: October 8, 2024
  * @author Daniella Pefanis
  */
+
 import java.util.Scanner;
 
 public class StringManipulation {

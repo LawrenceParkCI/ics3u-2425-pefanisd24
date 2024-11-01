@@ -1,9 +1,8 @@
 package unit1;
-
 /**
- * Description: Date: September 30th, 2024
- * 
- * @author Daniella
+ * Description: This code finds the area of a square .
+ * Date: September 30th, 2024
+ * @author Daniella Pefanis
  */
 public class CreatingVariables {
 	/**

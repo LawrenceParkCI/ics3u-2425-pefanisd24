@@ -1,9 +1,10 @@
 package unit1;
-/*
+/**
  * Description: This code calculates net pay.
  * Date: October 8, 2024
  * @author Daniella Pefanis
  */
+
 import java.util.Scanner;
 
 public class NetPay {
