@@ -4,7 +4,7 @@ package unit1;
  * Date: October 3, 2024
  * @author Daniella Pefanis
  */
- 
+
 
 import java.util.Scanner;
 
@@ -15,13 +15,13 @@ public class InputFP {
 
 		//Declare variable
 		double num1, num2;
-		
+
 		//receive user input
 		System.out.println("Type in one floating point number");
 		num1 = sc.nextDouble();
 		System.out.println("Type in another floaing point number");
 		num2 = sc.nextDouble();
-		
+
 		//print the output
 		System.out.println();
 		System.out.println("The first number entered was " + num1);

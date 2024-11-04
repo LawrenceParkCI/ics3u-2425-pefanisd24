@@ -20,9 +20,9 @@ public class InputChars {
 		ch3 = sc.nextLine () .charAt (0);
 		System.out.println();
 		System.out.print("Together these 3 letters spell: " + (ch1 + ch2 + ch3));
-		
-		
-		
+
+
+
 
 	}
 
