@@ -1,7 +1,10 @@
 package unit1;
 /**
- * Description: This program says ow many hcracaers 
+ * Description: This program says how many characters are in the code.
+ * Date: October 10, 2024
+ * @author Daniella Pefanis
  */
+
 public class PlayingWithStrings {
 
 	public static void main(String[] args) {
