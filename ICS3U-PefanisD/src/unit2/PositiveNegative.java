@@ -33,7 +33,7 @@ public class PositiveNegative {
 			}
 			else{
 				System.out.println("Your number is negitive.");
-			}
+			} 
 
 		}
 
