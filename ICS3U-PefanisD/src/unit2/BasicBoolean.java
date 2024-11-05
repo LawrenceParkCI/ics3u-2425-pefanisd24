@@ -24,24 +24,24 @@ package unit2;
 		    int secondNum = 10;
 		    double thirdNum = 5.5;
 
-		    //this prints out ________ because ________________
+		    //this prints out true because second number is bigger than first
 		    System.out.println("1: " + (firstNum < secondNum)); 
 
-		    //this prints out ________ because ________________
+		    //this prints out false because first number isnt bigger than second
 		    System.out.println("2: " + (firstNum > secondNum)); 
 
-		    //this prints out ________ because ________________
+		    //this prints out true because first number is equal to or greater than third
 		    System.out.println("3: " + (firstNum <= (int)thirdNum)); 
-		    //this prints out ________ because ________________
+		    //this prints out true because equal to or greater than third
 		    System.out.println("4: " + (firstNum <= thirdNum)); 
 
 		    /*Test out these boolean operators. Figure out the meaning
-		      * > means:
-		      * < means:
-		      * <= means:
-		      * >= means:
-		      * == means:
-		      * != means:
+		      * > means: greater than
+		      * < means: less than
+		      * <= means:less than or equal to
+		      * >= means: greater than or equal to
+		      * == means: equal to
+		      * != means: not equal to
 		    */
 
 		  }
