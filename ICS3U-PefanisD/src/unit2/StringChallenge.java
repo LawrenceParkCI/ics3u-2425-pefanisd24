@@ -2,7 +2,7 @@ package unit2;
 import java.util.Scanner;
 
 /**
- * Description:
+ * Description: This code asks for Frank Ocean's most streamed album and tells you if your answer is right or not, and what percentage of correct you got. 
  * Date: November 11, 2024
  * @author Daniella Pefanis
  */
@@ -21,6 +21,7 @@ public class StringChallenge {
       -when you use the different String functions
       The first String function (equals()), and the last one (compareTo()), input is always Sorry, that's incorrect unless the answer typed is exactly right. (Including capital letters.) When using equalsIgnoreCase(), as long as the input is typed properly, it'll say correct even if the letters aren't capitalized properly.  
       -when you are casting and how the value is changed
+      In this code, explicit casting is used when converting the percentage from a double to an int, which removes the decimal part (e.g., 60.5 becomes 60), and implicit casting is used when an int is automatically converted to a double (e.g., 10 becomes 10.0) without losing any information.
 		 */
 
 		Scanner in = new Scanner(System.in);
