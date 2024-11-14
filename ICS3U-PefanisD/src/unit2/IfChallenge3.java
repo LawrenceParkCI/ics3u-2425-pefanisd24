@@ -14,15 +14,40 @@ public class IfChallenge3 {
 		Scanner sc = new Scanner(System.in);
 
 		// Declaring variables
-		String q1, q2, q3, q4, q5;
+		String q1, q2, q3, q4, q5, q6;
 		double quizpoints = 0;
 		String answer;
 
 		//Print their name
-		System.out.print("Please print your name: ");
+		System.out.print("Please print your first name: ");
 		q1 = sc.next();
 
 		// Ask if they're ready for the test
+		System.out.println("                                   @@@@@@@\r\n"
+				+ "                           @@@@@@@@@@@@@@@\r\n"
+				+ "                   @@@@@@@@@@@@@@@@@@ @@@@\r\n"
+				+ "             @@@@@@@@@@@@@@@@@@       @@@@\r\n"
+				+ "           @@@@@@@@@@@@               @@@@\r\n"
+				+ "           @@@@@                     @@@@@\r\n"
+				+ "           @@@@@              @@@@@@@@@@@@\r\n"
+				+ "           @@@@@      @@@@@@@@@@@@@@@@@@@@\r\n"
+				+ "           @@@@@@@@@@@@@@@@@@@@@      @@@@\r\n"
+				+ "           @@@@@@@@@@@@@@@            @@@@\r\n"
+				+ "           @@@@@@@                    @@@@\r\n"
+				+ "           @@@@@                      @@@@\r\n"
+				+ "           @@@@@                @@@@@ @@@@\r\n"
+				+ "           @@@@@             @@@@@@@@@@@@@\r\n"
+				+ "           @@@@@           @@@@@@@@@@@@@@@\r\n"
+				+ "           @@@@@           @@@@@@@@@@@@@@@\r\n"
+				+ "   @@@@@@@@@@@@@          @@@@@@@@@@@@@@@@\r\n"
+				+ " @@@@@@@@@@@@@@@           @@@@@@@@@@@@@@@\r\n"
+				+ "@@@@@@@@@@@@@@@@           @@@@@@@@@@@@@@@\r\n"
+				+ "@@@@@@@@@@@@@@@@             @@@@@@@@@@@  \r\n"
+				+ "@@@@@@@@@@@@@@@@                @@@@@     \r\n"
+				+ "@@@@@@@@@@@@@@@                           \r\n"
+				+ " @@@@@@@@@@@@@                            \r\n"
+				+ "   @@@@@@@@@                              ");
+		System.out.println("");
 		System.out.println("Are you ready for the test, " + q1 + "? Let's begin! ");
 		System.out.println("");
 
@@ -62,7 +87,7 @@ public class IfChallenge3 {
 		q3 = sc.next();
 
 		// Using equalsIgnoreCase() method
-		if (q2.equalsIgnoreCase("D")) {
+		if (q3.equalsIgnoreCase("D")) {
 			System.out.println("Correct!");
 			quizpoints +=1;
 		} else {
@@ -96,7 +121,7 @@ public class IfChallenge3 {
 		System.out.println("A. Take Care");
 		System.out.println("B. Thank Me Later");
 		System.out.println("C. Views");
-		
+
 		System.out.println("");
 		System.out.println("Please type your answer.");
 
@@ -111,12 +136,32 @@ public class IfChallenge3 {
 			System.out.println("Sorry, that's incorrect.");
 		}
 
+		//Question 5
+		System.out.println("");
+		System.out.println("Question 5:");
+		System.out.println("What was The Weeknd's first released album?");
+		System.out.println("A. After Hours");
+		System.out.println("B. Starboy");
+		System.out.println("C. Trilogy");
+		System.out.println("D. House of Balloons");
 
+		System.out.println("");
+		System.out.println("Please type your answer.");
 
+		//Declaring variable
+		q6 = sc.next();
+
+		// Using equalsIgnoreCase() method
+		if (q6.equalsIgnoreCase("C")) {
+			System.out.println("Correct!");
+			quizpoints +=1;
+		} else {
+			System.out.println("Sorry, that's incorrect.");
+		}
 
 		System.out.println("Congradulations! You've finished the quiz!");
-		System.out.println("Here is your final mark.." + (quizpoints/4*100) + "%");
+		System.out.println("Here is your final mark.." + (quizpoints/5*100) + "%");
 
 
-}
+	}
 }
