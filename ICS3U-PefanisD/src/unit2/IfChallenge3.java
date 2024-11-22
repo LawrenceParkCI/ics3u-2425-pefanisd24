@@ -9,6 +9,8 @@ import java.util.Scanner;
  */
 
 public class IfChallenge3 {
+	private static Scanner scanner;
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
@@ -162,6 +164,6 @@ public class IfChallenge3 {
 		System.out.println("Congradulations! You've finished the quiz!");
 		System.out.println("Here is your final mark.." + (quizpoints/5*100) + "%");
 
-
+		scanner.close();
 	}
 }

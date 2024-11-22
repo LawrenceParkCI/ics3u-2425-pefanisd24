@@ -62,10 +62,6 @@ public class Switch2 {
 		case "december":
 			System.out.println("This month has 30 days.");
 			break;
-		
-
-
-
 
 			/*Create a program that asks for a month, and print out how many days there are in that month. (For "February", just put 28). This will be a part of your portfolio.
 

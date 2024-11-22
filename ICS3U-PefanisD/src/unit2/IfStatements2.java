@@ -31,6 +31,8 @@ public class IfStatements2 {
 //Comment the code above to avoid compilation errors.
 
 public class IfStatements2 {
+	private static Scanner sc;
+
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 
@@ -47,6 +49,7 @@ public class IfStatements2 {
 		}
 
 
-		System.out.println(title); 
+		System.out.println(title);
+		sc.close();
 	}
 }
