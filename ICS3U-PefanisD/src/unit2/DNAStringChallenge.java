@@ -1,9 +1,9 @@
 package unit2;
 
 /**
-Description:
-Date:
-@author:
+Description: This code provides a link
+Date: November 27, 20204
+@author: Daniella Pefanis
 */
 
 public class DNAStringChallenge {
