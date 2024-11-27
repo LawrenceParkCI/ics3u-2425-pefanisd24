@@ -2,9 +2,9 @@ package unit2;
 import java.util.Scanner;
 
 /**
-Description:
-Date:
-@author 
+Description: This code asks for a name then prints each letter on a different line
+Date: November 27, 2024
+@author Daniella Pefanis
  */
 
 
