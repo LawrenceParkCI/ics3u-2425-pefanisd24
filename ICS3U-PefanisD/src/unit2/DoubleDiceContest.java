@@ -6,6 +6,10 @@ package unit2;
  * @author
  */
 public class DoubleDiceContest {
+	/**
+	 * This is the entry point to the program.
+	 * @param args unused
+	 */
 
 	public static void main(String[] args) {
 
@@ -33,12 +37,12 @@ public class DoubleDiceContest {
 
 		System.out.println(2);
 		if (die1+die2<die3+die4) {
-		System.out.println("You win!"); 
+			System.out.println("You win!"); 
+		}
+		else {
+			System.out.println("Computer Wins!");
+		}
 	}
-	else {
-	System.out.println("Computer Wins!");
-	}
-}
 }
 
 

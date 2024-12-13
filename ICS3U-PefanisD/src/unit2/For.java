@@ -7,6 +7,10 @@ Date: November, 25, 2024
  */
 
 public class For {
+	/**
+	 * This is the entry point to the program.
+	 * @param args unused
+	 */
 	public static void main(String[] args) {
 
 		/*

@@ -7,6 +7,10 @@ package unit1;
  */
 
 public class Asciiart {
+	/**
+	 * This is the entry point to the program.
+	 * @param args unused
+	 */
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

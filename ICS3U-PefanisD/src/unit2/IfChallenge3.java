@@ -9,6 +9,10 @@ import java.util.Scanner;
  */
 
 public class IfChallenge3 {
+	/**
+	 * This is the entry point to the program.
+	 * @param args unused
+	 */
 	private static Scanner scanner;
 
 	public static void main(String[] args) {

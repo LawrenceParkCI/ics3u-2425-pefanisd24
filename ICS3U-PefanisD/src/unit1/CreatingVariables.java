@@ -6,8 +6,8 @@ package unit1;
  */
 public class CreatingVariables {
 	/**
-	 *
-	 * @param
+	 * This is the entry point to the program.
+	 * @param args unused
 	 */
 	public static void main(String[] args) {
 		System.out.println("Warm-up");

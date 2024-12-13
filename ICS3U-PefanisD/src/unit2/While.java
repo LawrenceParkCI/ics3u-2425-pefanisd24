@@ -1,13 +1,19 @@
-/**
- Description:
- Date:
- @author 
- */
 package unit2;
+
+/**
+ Description: This program prints names.
+ Date: December 2, 2024
+ @author Daniella Pefanis
+ */
 
 import java.util.Scanner;
 
 public class While {
+
+	/**
+	 * This is the entry point to the program.
+	 * @param args unused
+	 */
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		System.out.println("How many people are you planning to see?");

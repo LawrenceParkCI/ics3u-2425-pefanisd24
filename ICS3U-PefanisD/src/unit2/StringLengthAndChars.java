@@ -9,8 +9,8 @@ Date: November 27, 2024
 
 
 public class StringLengthAndChars {
-
 	/**
+	 * This is the entry point to the program.
 	 * @param args unused
 	 */
 

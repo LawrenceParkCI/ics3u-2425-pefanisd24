@@ -7,6 +7,10 @@ Date: November 27, 2024
  */
 
 public class ForChallenge1 {
+	/**
+	 * This is the entry point to the program.
+	 * @param args unused
+	 */
 	public static void main(String[] args) {
 		/*
       Create a program that asks for the starting number, the ending number, and how much you should count by. Then print out the numbers using a for loop.  You should be able to count by decimals.

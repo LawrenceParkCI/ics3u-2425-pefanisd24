@@ -7,6 +7,10 @@ Date: November 26, 2024
  */
 
 public class For2 {
+	/**
+	 * This is the entry point to the program.
+	 * @param args unused
+	 */
 	public static void main(String[] args) {
 		//Recall - create a for loop printing 1 to 10:
 
@@ -33,23 +37,22 @@ public class For2 {
 		}
 
 
-			//Look at the following code. Explain what is happening?
+		//Look at the following code. Explain what is happening?
 		//The `for` loop adds all integers from 1 to 9 to the `sum` variable. It starts with `i = 1` and iterates until `i = 9`, updating `sum` on each iteration. After the loop finishes, `sum` contains the total of these integers, which is 45.
-			
-
-			int sum = 0; 
-
-			for (int i = 1; i < 10; i++) {
-				sum += i;
-			}
-
-			System.out.println(sum);
 
 
+		int sum = 0; 
 
-			{
-			}
+		for (int i = 1; i < 10; i++) {
+			sum += i;
+		}
+
+		System.out.println(sum);
+
+
+
+		{
+		}
 	}
 }
-	
-	
+

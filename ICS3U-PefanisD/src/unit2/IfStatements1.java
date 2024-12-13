@@ -7,6 +7,10 @@ package unit2;
  */
 
 public class IfStatements1 {
+	/**
+	 * This is the entry point to the program.
+	 * @param args unused
+	 */
 	public static void main(String[] args) {
 		int firstNum = 10;
 		int secondNum = 30;

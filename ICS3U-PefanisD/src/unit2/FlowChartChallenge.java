@@ -9,6 +9,10 @@ import java.util.Scanner;
  */
 
 class FlowChartChallenge {
+	/**
+	 * This is the entry point to the program.
+	 * @param args unused
+	 */
 	private static Scanner in;
 
 	public static void main(String[] args) {
@@ -16,8 +20,8 @@ class FlowChartChallenge {
     to your flowchart as a comment in this program.
     How would the flow chart of the do-while loop
      and while loop differ?
-     
-     
+
+
      //https://drive.google.com/file/d/1WhZwiHqIhphhFklDK31uXlCHykR8LoP5/view?usp=sharing
 		 */
 

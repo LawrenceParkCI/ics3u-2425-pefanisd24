@@ -8,6 +8,10 @@ import java.util.Scanner;
  * @author Daniella Pefanis
  */
 public class OddEven {
+	/**
+	 * This is the entry point to the program.
+	 * @param args unused
+	 */
 	private int number;
 
 	public OddEven (int number) {

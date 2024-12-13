@@ -8,6 +8,10 @@ import java.util.Scanner;
  */
 
 public class StringChallenge {
+	/**
+	 * This is the entry point to the program.
+	 * @param args unused
+	 */
 	public static void main(String[] args) {
 		//This is for the portfolio
 

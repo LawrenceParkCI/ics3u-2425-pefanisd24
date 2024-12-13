@@ -9,6 +9,7 @@ import java.util.Scanner;
 
 public class PositiveNegative {
 
+
 	/**
 	 * This is the entry point to the program
 	 * @param args unused

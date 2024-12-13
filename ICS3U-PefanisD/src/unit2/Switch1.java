@@ -8,6 +8,10 @@ Date: November 11, 2024
  */
 
 public class Switch1 {
+	/**
+	 * This is the entry point to the program.
+	 * @param args unused
+	 */
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 
@@ -42,11 +46,11 @@ public class Switch1 {
 		in.close();
 	}
 
-//Run the program. Type in a number between 1-7, and then a number bigger than that. What is the result? When you run the program and enter a number between 1 and 7, it will show the day of the week that matches the number (for example, 1 will show "Sunday," 2 will show "Monday," etc.). If you enter a number bigger than 7 (like 8, 9, etc.), it will print "We don't have that day yet."
-//What do you think default means? In a switch statement, the default case is used when none of the other cases match the input
-//What do you think break means? What happens when you remove a break? In a switch statement the break keyword is used to stop the program from continuing to check the remaining cases once a match is found. If you remove the break, the program will continue to execute the next case, even if it has already matched a case. 
+	//Run the program. Type in a number between 1-7, and then a number bigger than that. What is the result? When you run the program and enter a number between 1 and 7, it will show the day of the week that matches the number (for example, 1 will show "Sunday," 2 will show "Monday," etc.). If you enter a number bigger than 7 (like 8, 9, etc.), it will print "We don't have that day yet."
+	//What do you think default means? In a switch statement, the default case is used when none of the other cases match the input
+	//What do you think break means? What happens when you remove a break? In a switch statement the break keyword is used to stop the program from continuing to check the remaining cases once a match is found. If you remove the break, the program will continue to execute the next case, even if it has already matched a case. 
 
 
-//Create another program, this time asking what day it is (String), and printing out how many days until the weekend
+	//Create another program, this time asking what day it is (String), and printing out how many days until the weekend
 
 }

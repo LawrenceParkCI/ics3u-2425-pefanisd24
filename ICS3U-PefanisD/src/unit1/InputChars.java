@@ -8,6 +8,10 @@ package unit1;
 import java.util.Scanner;
 
 public class InputChars {
+	/**
+	 * This is the entry point to the program.
+	 * @param args unused
+	 */
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

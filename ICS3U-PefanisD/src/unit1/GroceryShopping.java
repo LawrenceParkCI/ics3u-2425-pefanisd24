@@ -11,6 +11,10 @@ import java.text.NumberFormat;
 import java.time.LocalDateTime;
 
 public class GroceryShopping {
+	/**
+	 * This is the entry point to the program.
+	 * @param args unused
+	 */
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

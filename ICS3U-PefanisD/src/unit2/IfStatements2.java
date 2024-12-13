@@ -31,6 +31,10 @@ public class IfStatements2 {
 //Comment the code above to avoid compilation errors.
 
 public class IfStatements2 {
+	/**
+	 * This is the entry point to the program.
+	 * @param args unused
+	 */
 	private static Scanner sc;
 
 	public static void main(String[] args) {

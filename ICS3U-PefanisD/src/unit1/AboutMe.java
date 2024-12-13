@@ -5,10 +5,14 @@ package unit1;
  * @author: Daniella Pefanis
  */
 public class AboutMe {
+	/**
+	 * This is the entry point to the program.
+	 * @param args unused
+	 */
 
 	public static void main(String[] args) {
 		// This prints hello to the system console
-		
+
 		System.out.println("About Me");
 		System.out.println("--------");
 		System.out.print("My name is Daniella Pefanis,");

@@ -8,6 +8,10 @@ import java.util.Scanner;
  */
 
 public class LoopChallenge2 {
+	/**
+	 * This is the entry point to the program.
+	 * @param args unused
+	 */
 	public static void main(String[] args) {
 		/*
       Write a program to take the square root of a number typed in by 
@@ -33,7 +37,7 @@ public class LoopChallenge2 {
 			number = scanner.nextDouble(); 
 
 			// Check if the number is positive
-				if (number >= 0) {
+			if (number >= 0) {
 				break;  // Exit loop if positive
 			} else {
 				System.out.println("This number is negative. Please enter a positive number.");

@@ -9,6 +9,10 @@ Date: November 11, 2024
 import java.util.Scanner;
 
 public class Switch2 {
+	/**
+	 * This is the entry point to the program.
+	 * @param args unused
+	 */
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 
@@ -26,12 +30,12 @@ public class Switch2 {
 			System.out.println("This month has 31 days.");
 			break;
 		case "february":
-            if (isLeapYear) {
-                System.out.println("This month has 29 days.");
-            } else {
-                System.out.println("This month has 28 days.");
-            }
-            break;
+			if (isLeapYear) {
+				System.out.println("This month has 29 days.");
+			} else {
+				System.out.println("This month has 28 days.");
+			}
+			break;
 		case "march":
 			System.out.println("This month has 31 days.");
 			break;
