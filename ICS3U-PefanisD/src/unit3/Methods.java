@@ -10,6 +10,11 @@ Date: December 13, 2024
  */
 
 public class Methods {
+	/**
+	 * This is the entry point to the program.
+	 * @param args unused
+	 */
+	
 	public static void main(String[] args) {
 		/**
     Introduction
