@@ -95,7 +95,7 @@ public class MathPlus {
 		System.out.println("Number of factors of 12: " + numOfFactors(12));
 		
 		//Example of distance between points
-		System.out.println("Distane: " + distance (1,2,4,6));
+		System.out.println("Distance: " + distance (1,2,4,6));
 		
 
 	}
