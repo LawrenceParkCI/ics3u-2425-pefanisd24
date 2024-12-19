@@ -116,10 +116,17 @@ public class Arrays {
 			isPassing = new boolean[5];
 
 			System.out.println(isPassing[0]);
+			String[] studentNames = new String[3];
+			studentNames[0] = "Daniella";
+			studentNames[1] = "Noa";
+			studentNames[2] = "Ethan";
+			System.out.println(studentNames[0]);
+
 
 			//Declare and initialize an array of 3 student names
 
 			//print out the first element. What does it say?
+			 //It says the first name "Daniella"
 
 			/*
       Initializing the elements of the array
@@ -130,15 +137,23 @@ public class Arrays {
 			System.out.println("--------------------------------------");
 			//same as above
 			//you need the variable name(identifier), and the index
+			//Initialize the elements of the student names. Print them out.
 			isPassing[0] = true;
 			isPassing[1] = true;
 			isPassing[2] = false;
 			isPassing[3] = true;
 			isPassing[4] = false;
-
-
-			//Initialize the elements of the student names. Print them out.
-
+			
+			String[] studentNames1 = new String[3];
+			studentNames[0] = "Emma";  // First student
+			studentNames[1] = "Maddy";  // Second student
+			studentNames[2] = "Ella"; // Third student
+			
+			System.out.println("Student Names:");
+			System.out.println(studentNames[0]);
+			System.out.println(studentNames[1]); 
+			System.out.println(studentNames[2]); 
+			
 
 			/**
       Printing an array
@@ -149,9 +164,10 @@ public class Arrays {
 			System.out.println("-----------------");
 
 			System.out.println(isPassing);
-			//What do you see printed? Is it useful for us?
+			//What do you see printed? Is it useful for us? 
+			//When you print an array directly you see something like the array's memory address a code. This is not useful if you want to display the actual values inside the array.
 
 			//How do you think we can print out each element of the array?
-
+			//To print the individual elements of the array, you need to loop through the array and print each element using either a standard for loop or an enhanced for loop.
 		}
 	} 
