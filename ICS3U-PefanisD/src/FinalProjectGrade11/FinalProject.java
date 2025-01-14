@@ -1,7 +1,13 @@
 package FinalProjectGrade11;
 
 import java.awt.Color;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
 import java.util.Scanner;
+
+import javax.imageio.ImageIO;
+
 
 /**
  * Description: This program predicts weather based on information the user inputs.
@@ -16,10 +22,31 @@ public class FinalProject {
 	 * @throws InterruptedException 
 	 */
 
+	
+	static BufferedImage wizard = null;
+	static BufferedImage weathertypes = null;
+	
+	
 
+
+		
+	
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		// Starting point of the program
+		try {
+			wizard = ImageIO.read(new File ("src/FinalProjectGrade11/wizard.jpg"));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		try {
+			weathertypes = ImageIO.read(new File ("src/FinalProjectGrade11/weather types.jpg"));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 		displayMenu();
 
 
@@ -42,6 +69,7 @@ public class FinalProject {
 
 		System.out.println("Hey there!");
 		Thread.sleep(2000);
+		drawImage (wizard,  0, 0, 700, 500, null);
 		System.out.println("I'm the Weather Wizard...");
 		Thread.sleep(2000);
 		System.out.println("You're favourite weather predictor!");
@@ -59,10 +87,6 @@ public class FinalProject {
 		System.out.println("Let's Start!");
 		System.out.println(" ");
 		Thread.sleep(2000);
-
-
-
-
 
 
 		// Asks the user to input the current weather condition
@@ -85,29 +109,53 @@ public class FinalProject {
 		return weather;
 	}
 
+	private static void drawImage(BufferedImage wizard2, int i, int j, int k, int l, Object object) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void clear() {
+		// TODO Auto-generated method stub
+		
+	}
+
 	public static int getUserInputTemperature() throws InterruptedException {
 		// Asks the user to input the current temperature in Celsius
 		Scanner scanner = new Scanner(System.in);
 
 		System.out.println("Noted!");
+		System.out.println(" ");
 		Thread.sleep(2000);
 		System.out.println("Question 2:");
+		System.out.println("-----------");
 		Thread.sleep(2000);
-		System.out.println("Please enter the current temperature (in Celsius): ");
+		System.out.println("Either check online..");
+		Thread.sleep(2000);
+		System.out.println("Or make an educated guess!");
+		Thread.sleep(2000);
+		System.out.println("Enter the current temperature (in Celsius): ");
 		int temperature = scanner.nextInt();
 
 		return temperature;
 	}
 
-	public static String getUserInputTimeOfDay() {
+	public static String getUserInputTimeOfDay() throws InterruptedException {
 		// Asks the user to input the time of day (morning, afternoon, night)
 		Scanner scanner = new Scanner(System.in);
 
+		System.out.println("Got it!!");
+		System.out.println(" ");
+		Thread.sleep(2000);
+		System.out.println("Question 3:");
+		System.out.println("-----------");
+		Thread.sleep(2000);
 		System.out.println("Please enter the time of day (morning, afternoon, night): ");
 		String timeOfDay = scanner.nextLine().toLowerCase();
 
 		while (!timeOfDay.equals("morning") && !timeOfDay.equals("afternoon") && !timeOfDay.equals("night")) {
-			System.out.println("Invalid input! Please enter one of the following: morning, afternoon, night.");
+			System.out.println("That wasnt an option :(");
+			Thread.sleep(2000);
+			System.out.println("Please enter one of the following: morning, afternoon, night.");
 			timeOfDay = scanner.nextLine().toLowerCase();
 		}
 		return timeOfDay;
@@ -120,17 +168,17 @@ public class FinalProject {
 		// Sunny conditions
 		if (weather.equals("sunny")) {
 			if (temperature > 25) {
-				prediction += "It will remain sunny and hot! Perfect for a beach day!";
+				prediction += "It will stay sunny and hot! Perfect for a beach day or a hot day outside!";
 			} else if (temperature >= 15) {
 				prediction += "It will stay sunny but a bit cooler. Enjoy the pleasant weather!";
 			} else {
-				prediction += "It will still be sunny, but you'll want a light jacket.";
+				prediction += "It will still be sunny, but might want a light jacket.";
 			}
 		}
 		// Cloudy conditions
 		else if (weather.equals("cloudy")) {
 			if (temperature > 20) {
-				prediction += "It will stay cloudy, but warm. It could be a nice day for a walk.";
+				prediction += "It will stay cloudy, but warm. It could be a nice day for a walk!";
 			} else {
 				prediction += "It will stay cloudy and chilly. A good day to stay inside!";
 			}
